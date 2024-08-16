@@ -1,2 +1,28 @@
 getgenv().Key = "k5fe0a80236a95918cb25d7d"
+getgenv().Config = {
+    ["AutoSave"] = true,
+    ["ItemPrice"] = 1,
+    ["JoinerList"] = {
+        [1] = "No joiner in the list"
+    },
+    ["LSImplosion"] = 100000,
+    ["LSDelay"] = 0.4,
+    ["FeedLevel"] = 69,
+    ["LeaveSellWave"] = 1,
+    ["RequiredGem"] = 50000,
+    ["IgnoreMacroTiming"] = true,
+    ["ReceiverAccount2"] = "jaevon01",
+    ["JoinerCooldown"] = 0,
+    ["JoinUsername"] = "jaevon01",
+    ["ABBHopDelay"] = 0,
+    ["LSBomb"] = 1,
+    ["ReceiverAccount"] = "jaevon01",
+    ["TradeItem"] = {
+        ["Trait Crystal"] = true
+    },
+    ["LSLoop"] = 2,
+    ["UnitPrice"] = 1,
+    ["AutoTradeItem"] = true,
+    ["AutoJoinTradeHub"] = true
+}
 repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(20)until Joebiden
