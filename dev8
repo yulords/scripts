@@ -1,6 +1,6 @@
 getgenv().Key = "k6511939ab82225d6f61347e"
 getgenv().Config = {
-	["AutoSave"] = true,
+	["AutoSave"] = false,
 	["ItemPrice"] = 1,
 	["WH_MatchComplete"] = true,
 	["AutoPlay"] = true,
