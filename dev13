@@ -1,162 +1,28 @@
-getgenv().Key = "k6511939ab82225d6f61347e"
+getgenv().Key = "k5fe0a80236a95918cb25d7d"
 getgenv().Config = {
-	["AutoSave"] = true,
-	["ItemPrice"] = 1,
-	["WH_MatchComplete"] = true,
-	["AutoPlay"] = true,
-	["JoinerList"] = {
-		["1"] = "No joiner in the list"
-	},
-	["AutoSummonStandard"] = false,
-	["AutoUseAbility"] = true,
-	["AutoPlayNext"] = false,
-	["SelectBuyRaid"] = {
-		["Raid1"] = {
-			["Trait Crystal"] = false,
-			["Risky Dice"] = false,
-			["Frost Bind"] = false,
-			["Gems"] = false,
-			["Bear King"] = false,
-			["Otherworldly Gauntlet"] = false
-		},
-		["Raid2"] = {
-			["Trait Crystal"] = false,
-			["Risky Dice"] = false,
-			["Water Swordsmaster"] = false,
-			["Gems"] = false,
-			["Aqua Blade"] = false,
-			["Frost Bind"] = false
-		}
-	},
-	["SelectPortalMacro"] = {
-
-	},
-	["AutoBuyRaid"] = false,
-	["AutoSell"] = false,
-	["LSImplosion"] = 100000,
-	["AutoReplay"] = false,
-	["AutoJoinTower"] = false,
-	["FeedLevel"] = 69,
-	["SelectRaidWorld"] = {
-		["Cursed Train"] = false,
-		["Cursed Dungeon"] = false
-	},
-	["WH_BannerSummoned"] = true,
-	["PlaceGap"] = {
-		["Snowy Woods"] = 3.25,
-		["Cursed Kingdom Portal"] = 3.25,
-		["Crystal Cave"] = 3.25,
-		["Hall of Mirrors"] = 3.25,
-		["Cursed Dungeon"] = 3.25,
-		["Blue Planet"] = 3.25,
-		["Tower of Eternity"] = 3.25,
-		["Windmill Village"] = 3.25,
-		["Solar Temple Portal"] = 3.25,
-		["Cursed Train"] = 3.25,
-		["Haunted City"] = 3.25,
-		["Cursed Academy"] = 3.25,
-		["Ancient Dragon Portal"] = 3.25,
-		["Demon Portal"] = 3.25,
-		["Lunar Temple Portal"] = 3.25,
-		["Swordsman Dojo"] = 3.25,
-		["Underwater Temple"] = 3.25
-	},
-	["AutoConvertTicket"] = false,
-	["LeaveSellWave"] = 31,
-	["WHGemItemGotAlt"] = true,
-	["WebhookURL"] = "https://discord.com/api/webhooks/1271771175919292446/J6Rt4bqub_NDef2wyasOzwmT1FODvaSikxxpJWXEmiPpg4FFJfhdW11dvA45-SCIPc1W",
-	["ABBHopServer"] = false,
-	["AutoJoinMirror"] = false,
-	["RequiredGem"] = 3000,
-	["AutoClaimBattlePass"] = true,
-	["AutoBuyBooth"] = false,
-	["AutoJoinTradeHub"] = false,
-	["SelectWorld"] = "Windmill Village",
-	["TPLobbyIfPlayer"] = false,
-	["AutoJoinHoster"] = false,
-	["LSDelay"] = 0.4,
-	["SelectTowerMacro"] = {
-
-	},
-	["IgnoreMacroTiming"] = false,
-	["AutoTradeItem"] = false,
-	["SelectRaidMacro"] = {
-
-	},
-	["WH_BoothBought"] = true,
-	["TeleportLobbyNewBanner"] = false,
-	["AutoJoinRaid"] = false,
-	["UnitPrice"] = 1,
-	["DeleteRarity"] = {
-		["Epic"] = false,
-		["Legendary"] = false,
-		["Rare"] = false
-	},
-	["AutoFeedEquippedUnit"] = true,
-	["PlayMacro"] = false,
-	["UpgradeMethod"] = "Lowest Level (Spread Upgrade)",
-	["AutoUpgrade"] = true,
-	["AutoJoinWorld"] = true,
-	["HillHeight"] = {
-		["Snowy Woods"] = 2,
-		["Cursed Kingdom Portal"] = 2,
-		["Crystal Cave"] = 2,
-		["Hall of Mirrors"] = 2,
-		["Cursed Dungeon"] = 2,
-		["Blue Planet"] = 2,
-		["Tower of Eternity"] = 2,
-		["Windmill Village"] = 2,
-		["Solar Temple Portal"] = 2,
-		["Cursed Train"] = 2,
-		["Haunted City"] = 2,
-		["Cursed Academy"] = 2,
-		["Ancient Dragon Portal"] = 2,
-		["Demon Portal"] = 2,
-		["Lunar Temple Portal"] = 2,
-		["Swordsman Dojo"] = 2,
-		["Underwater Temple"] = 2
-	},
-	["MiddlePos"] = {
-		["Windmill Village"] = "-1657.4727783203125, 24.114013671875, -522.752685546875"
-	},
-	["ABBHopDelay"] = 0,
-	["JoinerCooldown"] = 0,
-	["UnselectIfSummoned"] = false,
-	["AutoClaimQuest"] = true,
-	["AutoReturnLobby"] = true,
-	["AutoSummonLimited"] = false,
-	["UpgradeAndPlace"] = true,
-	["AutoSellShinies"] = false,
-	["LSBomb"] = 1,
-	["SelectChapter"] = "Infinite",
-	["AutoTransferGem"] = false,
-	["AutoSkip"] = true,
-	["HardMode"] = true,
-	["SelectChallengeMacro"] = {
-
-	},
-	["BlackScreen"] = true,
-	["LSLoop"] = 2,
-	["AutoJoinChallenge"] = false,
-	["BoostFPS"] = true,
-	["BuyUnit"] = false,
-	["SelectDeleteRarity"] = {
-		["Legendary"] = false,
-		["Shiny Epic"] = false,
-		["Epic"] = false,
-		["Mythic"] = false,
-		["Shiny Rare"] = false,
-		["Shiny Legendary"] = false,
-		["Rare"] = false
-	},
-	["JoinHighest"] = false,
-	["DeleteMap"] = true,
-	["WaitForJoiner"] = false,
-	["BuyItem"] = false,
-	["AutoJoinPortal"] = false,
-	["AutoDeleteUnit"] = false,
-	["AutoRejoin"] = true,
-	["AutoLeave"] = true,
-	["AutoEquipBest"] = false
+    ["AutoSave"] = true,
+    ["ItemPrice"] = 1,
+    ["JoinerList"] = {
+        [1] = "No joiner in the list"
+    },
+    ["LSImplosion"] = 100000,
+    ["LSDelay"] = 0.4,
+    ["FeedLevel"] = 69,
+    ["LeaveSellWave"] = 1,
+    ["RequiredGem"] = 50000,
+    ["IgnoreMacroTiming"] = true,
+    ["ReceiverAccount2"] = "jaevon01",
+    ["JoinerCooldown"] = 0,
+    ["JoinUsername"] = "jaevon01",
+    ["ABBHopDelay"] = 0,
+    ["LSBomb"] = 1,
+    ["ReceiverAccount"] = "jaevon01",
+    ["TradeItem"] = {
+        ["Trait Crystal"] = true
+    },
+    ["LSLoop"] = 2,
+    ["UnitPrice"] = 1,
+    ["AutoTradeItem"] = true,
+    ["AutoJoinTradeHub"] = true
 }
 repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(20)until Joebiden
