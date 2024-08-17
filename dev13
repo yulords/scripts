@@ -11,12 +11,12 @@ getgenv().Config = {
     ["LeaveSellWave"] = 1,
     ["RequiredGem"] = 50000,
     ["IgnoreMacroTiming"] = true,
-    ["ReceiverAccount2"] = "jaevon01",
+    ["ReceiverAccount2"] = "yuloalt12",
     ["JoinerCooldown"] = 0,
-    ["JoinUsername"] = "jaevon01",
+    ["JoinUsername"] = "yuloalt12",
     ["ABBHopDelay"] = 0,
     ["LSBomb"] = 1,
-    ["ReceiverAccount"] = "jaevon01",
+    ["ReceiverAccount"] = "yuloalt12",
     ["TradeItem"] = {
         ["Trait Crystal"] = true
     },
