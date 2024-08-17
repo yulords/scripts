@@ -1,28 +1,32 @@
-getgenv().Key = "k5fe0a80236a95918cb25d7d"
-getgenv().Config = {
-    ["AutoSave"] = false,
-    ["ItemPrice"] = 1,
-    ["JoinerList"] = {
-        [1] = "No joiner in the list"
+script_key = "tiRgywtCGBeOyVZwhpveLzWpXLHtHZeY"
+getgenv().Setting = {
+    AutoSkipWave=true,
+    AutoClaimQuest = true,
+    CapFps = true,
+    FpsBoost = true,
+    WebhookUrl = "https://discord.com/api/webhooks/1271864363048898672/rOUK92SQPYq1m4igLy_Vs8htFsDenJYZ5yOP-jmwvgpOdzObwAy-tmo1n6JbiOxm4iHq",
+    OneClickNewSetting = { 
+        Enable = true,
+        Feed = true,
+        Leave=false,
+        AllChapter = false,
+        IgnoreEquipBest = false,
+        LeaveWave = true,
+        RequiredLevel = 20,
+        AllUnitsToGo = {"Electric Cyborg","Beast Sorcerer","Warrior Princess","Admiral Of Lava","Strongest Swordsman"},
+        SnipeBannerUnits = {"Admiral Of Lava","Strongest Swordsman"}, --Snipe Unit Must Be In All Units To Use
+        TradingSnipe = false,
+        ForceInf = false, --Ignore Level, Unit
+        AnyUnitMythical_Secret = {
+            StartInfinite=true,
+            Feed=true,
+            IgnoreLevel = false
+        },
+        TradingSnipeUnits = {"Electric Cyborg"},
+        MaxGemUnit = 1000,
     },
-    ["LSImplosion"] = 100000,
-    ["LSDelay"] = 0.4,
-    ["FeedLevel"] = 69,
-    ["LeaveSellWave"] = 1,
-    ["RequiredGem"] = 50000,
-    ["IgnoreMacroTiming"] = true,
-    ["ReceiverAccount2"] = "yuloalt12",
-    ["JoinerCooldown"] = 0,
-    ["JoinUsername"] = "yuloalt12",
-    ["ABBHopDelay"] = 0,
-    ["LSBomb"] = 1,
-    ["ReceiverAccount"] = "yuloalt12",
-    ["TradeItem"] = {
-        ["Trait Crystal"] = true
-    },
-    ["LSLoop"] = 2,
-    ["UnitPrice"] = 1,
-    ["AutoTradeItem"] = true,
-    ["AutoJoinTradeHub"] = true
 }
-repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(20)until Joebiden
+if getgenv().Loaded  then
+    return 
+end
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/950b9999b1274e4d6f9fadc85fe2d77e.lua"))()
